@@ -1,0 +1,49 @@
+:root{
+    --Lightred: hsl(0, 100%, 67%);
+    --Orangeyyellow: hsl(39, 100%, 56%);
+    --Greenteal: hsl(166, 100%, 37%);
+    --Cobaltblue: hsl(234, 85%, 45%);
+
+    --Lightslateblue_background: hsl(252, 100%, 67%);
+    --Lightroyalblue_background: hsl(241, 81%, 54%);
+    --Violetblue_circle: hsla(256, 72%, 46%, 1);
+    --Persianblue_circle: hsla(241, 72%, 46%, 0);
+
+    --White: hsl(0, 0%, 100%);
+    --Paleblue: hsl(221, 100%, 96%);
+    --Lightlavender: hsl(241, 100%, 89%);
+    --Darkgrayblue: hsl(224, 30%, 27%);
+}
+
+html, body{
+    height: 100%;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    text-align: center;
+    box-shadow: 2px 2px 30px var(--Lightlavender);
+    border-radius: 15px;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(var(--Lightslateblue_background), var(--Lightroyalblue_background));
+    border-radius: 15px;
+    flex-basis: 50%;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
