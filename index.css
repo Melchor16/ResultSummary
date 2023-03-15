@@ -54,6 +54,17 @@ main{
 }
 
 .circle{
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(var(--Violetblue_circle), var(--Persianblue_circle));
-    border-radius: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    align-self: center;
+}
+
+.score{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
 }
