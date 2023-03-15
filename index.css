@@ -25,6 +25,7 @@ main{
     justify-content: center;
     align-content: center;
     align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .card{
@@ -46,4 +47,13 @@ main{
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
+}
+
+.res-title{
+    color: var(--Lightlavender);
+}
+
+.circle{
+    background: linear-gradient(var(--Violetblue_circle), var(--Persianblue_circle));
+    border-radius: 30px;
 }
