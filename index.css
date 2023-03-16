@@ -199,3 +199,12 @@ main{
     background: linear-gradient(var(--Lightslateblue_background), var(--Lightroyalblue_background));
     cursor: pointer;
 }
+
+.attribution{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
